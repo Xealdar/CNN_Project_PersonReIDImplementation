@@ -1,0 +1,12 @@
+To install cuda, I installed cuda 10.2 with nvidia guide installation and
+cudnn too.
+
+Then I compiled pytorch from source thanks to pytorch documentation.
+
+I began to use docker to install torchvision, but finally it didn't work well
+so I used torchvision from pip install torchvision, and I downgraded pillow 
+version : pip install "pillow<7" after uninstalling it after it has 
+been install by pip install torchvision.
+
+environment : Person_reID_baseline_pytorch_env 
+
